@@ -1,0 +1,39 @@
+.flag{
+    width: 400px;
+    position: relative;
+    top: 150px;
+    left: 400px;
+}
+.orange{
+    background-color: orangered;
+    width: 450px;
+    height: 100px;
+}
+.white{
+    background-color: white;
+    width: 450px;
+    height: 100px;
+}
+.green{
+    background-color: green;
+    width: 450px;
+    height: 100px;
+}
+.wheel{
+    border: solid;
+    border-color: blue;
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-color: white;
+    top: 100px;
+    left: 177px;
+}
+p{
+    text-align: center;
+    font-size: 75px;
+    font-style: italic;
+    position: absolute;
+    left: 40px;
+}
