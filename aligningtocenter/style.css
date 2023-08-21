@@ -1,0 +1,58 @@
+/* 1.placing an element in center of the page by Using position
+div{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}*/
+
+/*2.placing an element in center of the page by Using flex
+
+body{
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}*/
+
+/* 3.placing an element in center of the page by Using grid
+body{
+    display: grid;
+    place-items: center;
+    height: 700px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}*/
+
+/*  4.placing an element in center of the page by Using margins
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 650px;
+    margin-top: 250px;
+}*/
+/*  5.placing an element in center of the page by Using transform
+body{
+    position: relative;
+    height: 700px;
+}
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
