@@ -1,0 +1,43 @@
+.parent{
+    width: 1500px;
+    height: 700px;
+    border: solid black 2px;
+}
+.child{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: darkorange;
+    margin: 10px;
+    animation-name: cricket;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes cricket {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        left: 0px;
+        top: 480px;
+        background-color: yellow;
+    }
+    50%{
+        left: 1280px;
+        top: 480px;
+        background-color: violet;
+    }
+    75%{
+        left: 1280px;
+        top: 0px;
+        background-color: red;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+    }
+}
